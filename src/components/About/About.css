@@ -1,7 +1,13 @@
 .about-card{
     border: none;
-    width: 70%;
+    width: 60%;
 }
 .about-ico{
-    font-size: 60px;
+    font-size: 40px;
+}
+.description{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #dddddd;
 }

@@ -1,23 +1,24 @@
 import React from 'react';
 import './About.css';
 import hexagon from '../../images/hexagon.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRocket } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRocket, faLaptop, faLightbulb, faTachometerAlt } from '@fortawesome/free-solid-svg-icons';
+import AboutMe from '../AboutMe/AboutMe';
 
 const About = () => {
     return (
         <section className="pt-5" id="about">
-            <div className="container">
-                <h1>&lt;About&gt;</h1>
+            <div className="container pt-5 mt-5">
+                <h1 className="mb-5">&lt;About&gt;</h1>
 
-                <div className="row">
+                <div className="row d-flex justify-content-center">
                     <div className="col-md-3 text-center">
                         <div class="card about-card bg-transparent text-white mx-auto">
                             <img src={hexagon} height="100%" class="card-img" />
                             <div class="card-img-overlay d-flex justify-content-center align-items-center pe-4">
                                 <h5 class="card-title about-ico">
-                                    <img src="" alt="" /></h5>
-
+                                    <FontAwesomeIcon icon={faRocket} />
+                                </h5>
                             </div>
                         </div>
                         <div className="description">
@@ -30,12 +31,13 @@ const About = () => {
                             <img src={hexagon} height="100%" class="card-img" />
                             <div class="card-img-overlay d-flex justify-content-center align-items-center pe-4">
                                 <h5 class="card-title about-ico">
-                                    <FontAwesomeIcon icon={faRocket} /></h5>
+                                    <FontAwesomeIcon icon={faLaptop} />
+                                </h5>
                             </div>
                         </div>
                         <div className="description">
-                            <h2>Dynamic</h2>
-                            <p>Websites don't have to be static, I love making pages come to life.</p>
+                            <h2>Responsive</h2>
+                            <p>My layouts will work on any device, big or small.</p>
                         </div>
                     </div>
                     <div className="col-md-3 text-center">
@@ -43,12 +45,12 @@ const About = () => {
                             <img src={hexagon} height="100%" class="card-img" />
                             <div class="card-img-overlay d-flex justify-content-center align-items-center pe-4">
                                 <h5 class="card-title about-ico">
-                                    <FontAwesomeIcon icon={faRocket} /></h5>
+                                    <FontAwesomeIcon icon={faLightbulb} /></h5>
                             </div>
                         </div>
                         <div className="description">
-                            <h2>Dynamic</h2>
-                            <p>Websites don't have to be static, I love making pages come to life.</p>
+                            <h2>Intuitive</h2>
+                            <p>Strong preference for easy to use, intuitive UX/UI.</p>
                         </div>
                     </div>
                     <div className="col-md-3 text-center">
@@ -56,18 +58,21 @@ const About = () => {
                             <img src={hexagon} height="100%" class="card-img" />
                             <div class="card-img-overlay d-flex justify-content-center align-items-center pe-4">
                                 <h5 class="card-title about-ico">
-                                    <FontAwesomeIcon icon={faRocket} /></h5>
+                                    <FontAwesomeIcon icon={faTachometerAlt} /></h5>
                             </div>
                         </div>
                         <div className="description">
-                            <h2>Dynamic</h2>
-                            <p>Websites don't have to be static, I love making pages come to life.</p>
+                            <h2>Fast</h2>
+                            <p>Fast load times and lag free interaction, my highest priority.</p>
                         </div>
                     </div>
                 </div>
 
+                <AboutMe></AboutMe>
+
                 <h1>&lt;/About&gt;</h1>
             </div>
+
 
         </section>
     );
