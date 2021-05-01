@@ -1,0 +1,7 @@
+.contact-form input, textarea{
+    border: none !important;
+    border-radius: 0 !important;
+}
+.contact-form textarea{
+    resize: none;
+}
