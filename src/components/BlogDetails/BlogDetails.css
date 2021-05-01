@@ -1,0 +1,28 @@
+.blog-card{
+    border: none;
+    cursor: pointer;
+    transition: all ease .5s;
+    height: 450px;
+}
+.blog-card img{
+    height: 180px;
+    width: auto;
+    transition: all ease .5s;
+}
+.blog-card:hover img{
+    border-radius: 20px 20px 0px 0px;
+}
+.blog-card:hover{
+    border-radius: 20px;
+    background: #222831;
+    box-shadow:  12px 12px 24px #1a1e25, -12px -12px 24px #2a323d;
+    transform: scale(1.04);
+    transition: all ease .5s;
+}
+.blog-card h5:hover{
+    color: #F4821F;
+}
+.card-boder{
+    border: 2px solid #F4821F;
+    border-radius: 10px;
+}

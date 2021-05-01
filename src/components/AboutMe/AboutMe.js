@@ -2,6 +2,8 @@ import React from 'react';
 import './AboutMe.css';
 import myProfile from '../../images/myProfile.png'
 import ProgressBar from '../ProgressBar/ProgressBar'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const AboutMe = () => {
     return (
@@ -15,14 +17,15 @@ const AboutMe = () => {
                 </p>
 
                 <a href="../../resume/Mahadi's Resume.pdf" download>
-                    <button className="btn-custom mt-4">Download My Resume</button>
+                    <button className="btn-custom mt-4">
+                        <FontAwesomeIcon icon={faDownload} /> Download My Resume</button>
                 </a>
             </div>
 
             <div className="col-md-6">
                 <ProgressBar done="87" technologyName="React" ></ProgressBar>
-                <ProgressBar done="87" technologyName="Javascript" ></ProgressBar>
-                <ProgressBar done="90" technologyName="HTML" ></ProgressBar>
+                <ProgressBar done="85" technologyName="Javascript" ></ProgressBar>
+                <ProgressBar done="95" technologyName="HTML" ></ProgressBar>
                 <ProgressBar done="90" technologyName="CSS" ></ProgressBar>
                 <ProgressBar done="80" technologyName="SCSS" ></ProgressBar>
                 <ProgressBar done="95" technologyName="Bootstrap" ></ProgressBar>
@@ -31,6 +34,7 @@ const AboutMe = () => {
                 <ProgressBar done="75" technologyName="React Redux" ></ProgressBar>
                 <ProgressBar done="70" technologyName="Firebase" ></ProgressBar>
                 <ProgressBar done="85" technologyName="Web API" ></ProgressBar>
+                <ProgressBar done="90" technologyName="Adobe XD" ></ProgressBar>
             </div>
 
         </div>
