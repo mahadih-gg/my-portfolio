@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Merienda&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Merienda', cursive;
+}
+body{
+  background: #222831 !important;
+  color: #fff !important;
+}
+.color-custom{
+  color: #F4821F;
+}

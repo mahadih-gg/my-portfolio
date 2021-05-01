@@ -1,0 +1,11 @@
+.navbar-custom{
+    border-radius: 0px;
+background: #222831;
+box-shadow:  10px 10px 20px #0e1014, -10px -10px 20px #36404e;
+}
+.navbar-custom a{
+    color: #fff;
+}
+.navbar-custom .active{
+    color: #F4821F;
+}

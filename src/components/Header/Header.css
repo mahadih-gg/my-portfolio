@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: #222831;
+}
+.header_gritting h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+.header-btn{
+    border: 4px solid #F4821F;
+    border-radius: none;
+    background: rgba(0, 0, 0, 0.10);
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 20px;
+    transition: all ease .3s; 
+}
+.header-btn:hover{
+    background-color: #F4821F;
+    color: #222831;
+    transition: all ease .3s; 
+    font-weight: bold;
+}
+.header-btn-icon{
+    color: #fff;
+    transition: all ease .3s; 
+}
+.header-btn:hover .header-btn-icon{
+    color: #222831;
+    transform: rotate(90deg);
+    transition: all ease .3s; 
+}
