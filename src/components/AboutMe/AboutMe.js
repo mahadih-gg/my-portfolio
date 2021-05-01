@@ -14,7 +14,9 @@ const AboutMe = () => {
                     <a className="color-primary contact-link" href="#contact">Let's make something special.</a>
                 </p>
 
-                <button className="btn-custom mt-4">Download my Resume</button>
+                <a href="../../resume/Mahadi's Resume.pdf" download>
+                    <button className="btn-custom mt-4">Download My Resume</button>
+                </a>
             </div>
 
             <div className="col-md-6">
