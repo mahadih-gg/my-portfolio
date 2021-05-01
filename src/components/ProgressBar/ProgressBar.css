@@ -1,0 +1,20 @@
+.progress {
+	background-color: #d8d8d8;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+}
+.progress-name{
+    width: 150px;
+    max-width: 150px;
+	background: #F4821F;
+    font-weight: bold;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #F4821F, #FF9472);
+	box-shadow: 0 3px 3px -5px #F4821F, 0 2px 5px #F2709C;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}

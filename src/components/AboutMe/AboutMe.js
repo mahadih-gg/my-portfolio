@@ -1,6 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
 import myProfile from '../../images/myProfile.png'
+import ProgressBar from '../ProgressBar/ProgressBar'
 
 const AboutMe = () => {
     return (
@@ -17,7 +18,17 @@ const AboutMe = () => {
             </div>
 
             <div className="col-md-6">
-
+                <ProgressBar done="87" technologyName="React" ></ProgressBar>
+                <ProgressBar done="87" technologyName="Javascript" ></ProgressBar>
+                <ProgressBar done="90" technologyName="HTML" ></ProgressBar>
+                <ProgressBar done="90" technologyName="CSS" ></ProgressBar>
+                <ProgressBar done="80" technologyName="SCSS" ></ProgressBar>
+                <ProgressBar done="95" technologyName="Bootstrap" ></ProgressBar>
+                <ProgressBar done="50" technologyName="Node JS" ></ProgressBar>
+                <ProgressBar done="60" technologyName="Express" ></ProgressBar>
+                <ProgressBar done="75" technologyName="React Redux" ></ProgressBar>
+                <ProgressBar done="70" technologyName="Firebase" ></ProgressBar>
+                <ProgressBar done="85" technologyName="Web API" ></ProgressBar>
             </div>
 
         </div>
