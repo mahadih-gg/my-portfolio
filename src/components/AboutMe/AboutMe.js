@@ -17,7 +17,7 @@ const AboutMe = () => {
                 </p>
 
                 <a href="../../resume/Mahadi's Resume.pdf" download>
-                    <button className="btn-custom mt-4">
+                    <button className="btn-custom mt-4 py-2">
                         <FontAwesomeIcon icon={faDownload} /> Download My Resume</button>
                 </a>
             </div>

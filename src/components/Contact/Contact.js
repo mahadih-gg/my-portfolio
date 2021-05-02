@@ -8,7 +8,7 @@ const Contact = () => {
                 <h1 className="mb-5 color-primary">&lt;Contact&gt;</h1>
 
                 <form action="" className="my-5 d-flex justify-content-center align-items-center">
-                    <div className="w-50 contact-form">
+                    <div className="w-50 p-5 contact-form">
                         <p className="text-center color-primary mb-5">Have a question or want to work together?</p>
                         <input type="text" className="form-control mb-1" placeholder="Name" required />
                         <input type="email" className="form-control mb-1" placeholder="Enter Email" required />
