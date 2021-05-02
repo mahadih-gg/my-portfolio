@@ -1,0 +1,25 @@
+footer{
+    width: 100%;
+    height: 180px;
+    background: #222831;
+    box-shadow:  12px 12px 30px #13161b, -12px -12px 30px #313a47;
+}
+.contact-icons .icon{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #222831;
+    box-shadow:  12px 12px 30px #13161b, -12px -12px 30px #313a47;
+}
+.icon:hover{
+    box-sizing: border-box;
+    -webkit-box-shadow:inset 0px 0px 0px 2px #F4821F;
+    -moz-box-shadow:inset 0px 0px 0px 2px #F4821F; 
+    box-shadow:inset 0px 0px 0px 2px #F4821F;
+    /* border: 3px solid #F4821F; */
+    color: #F4821F;
+}
+.contact-icons button{
+    border: none;
+    color: #0d6efd;
+}

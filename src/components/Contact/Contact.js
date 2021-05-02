@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css';
+import ParticlesBg from 'particles-bg';
 
 const Contact = () => {
     return (

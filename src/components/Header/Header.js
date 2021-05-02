@@ -2,11 +2,15 @@ import React from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import ParticlesBg from 'particles-bg';
 
 const Header = () => {
     return (
         <header className="d-flex justify-content-center align-items-center">
-            <div className="header_gritting text-center">
+            {/* <ParticlesBg color="#222831" num={20} type="thick" bg={true} /> */}
+            <ParticlesBg color="#F4821F" type="tadpole" bg={true} />
+            {/* <ParticlesBg type="cobweb" bg={true} /> */}
+            <div className="header_gritting text-center p-5">
                 <h1>Hi, I'm <span className="color-primary">MAHADI HASAN</span></h1>
                 <h1>I'm a Front-End Developer</h1>
                 <a href="#about">
