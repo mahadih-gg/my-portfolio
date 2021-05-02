@@ -1,12 +1,11 @@
 .contact-form{
     border-radius: 29px;
-
-box-shadow:  14px 14px 28px #1a1e25, -14px -14px 28px #2a323d;
+    box-shadow:  14px 14px 28px #1a1e25, -14px -14px 28px #2a323d;
 }
 .contact-form input, textarea{
     border: none !important;
     border-radius: 0 !important;
-    background: #0e131c !important;
+    background: #181c23 !important;
     color: #fff !important;
 }
 .contact-form textarea{

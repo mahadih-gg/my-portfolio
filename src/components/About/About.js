@@ -13,10 +13,10 @@ const About = () => {
 
                 <div className="row d-flex justify-content-center">
                     <div className="col-md-3 text-center">
-                        <div class="card about-card bg-transparent text-white mx-auto">
-                            <img src={hexagon} height="100%" class="card-img" />
-                            <div class="card-img-overlay d-flex justify-content-center align-items-center pe-4">
-                                <h5 class="card-title about-ico">
+                        <div className="card about-card bg-transparent text-white mx-auto">
+                            <img src={hexagon} height="100%" className="card-img" />
+                            <div className="card-img-overlay d-flex justify-content-center align-items-center pe-4">
+                                <h5 className="card-title about-ico">
                                     <FontAwesomeIcon icon={faRocket} />
                                 </h5>
                             </div>
@@ -27,10 +27,10 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-md-3 text-center">
-                        <div class="card about-card bg-transparent text-white mx-auto">
-                            <img src={hexagon} height="100%" class="card-img" />
-                            <div class="card-img-overlay d-flex justify-content-center align-items-center pe-4">
-                                <h5 class="card-title about-ico">
+                        <div className="card about-card bg-transparent text-white mx-auto">
+                            <img src={hexagon} height="100%" className="card-img" />
+                            <div className="card-img-overlay d-flex justify-content-center align-items-center pe-4">
+                                <h5 className="card-title about-ico">
                                     <FontAwesomeIcon icon={faLaptop} />
                                 </h5>
                             </div>
@@ -41,10 +41,10 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-md-3 text-center">
-                        <div class="card about-card bg-transparent text-white mx-auto">
-                            <img src={hexagon} height="100%" class="card-img" />
-                            <div class="card-img-overlay d-flex justify-content-center align-items-center pe-4">
-                                <h5 class="card-title about-ico">
+                        <div className="card about-card bg-transparent text-white mx-auto">
+                            <img src={hexagon} height="100%" className="card-img" />
+                            <div className="card-img-overlay d-flex justify-content-center align-items-center pe-4">
+                                <h5 className="card-title about-ico">
                                     <FontAwesomeIcon icon={faLightbulb} /></h5>
                             </div>
                         </div>
@@ -54,10 +54,10 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-md-3 text-center">
-                        <div class="card about-card bg-transparent text-white mx-auto">
-                            <img src={hexagon} height="100%" class="card-img" />
-                            <div class="card-img-overlay d-flex justify-content-center align-items-center pe-4">
-                                <h5 class="card-title about-ico">
+                        <div className="card about-card bg-transparent text-white mx-auto">
+                            <img src={hexagon} height="100%" className="card-img" />
+                            <div className="card-img-overlay d-flex justify-content-center align-items-center pe-4">
+                                <h5 className="card-title about-ico">
                                     <FontAwesomeIcon icon={faTachometerAlt} /></h5>
                             </div>
                         </div>
