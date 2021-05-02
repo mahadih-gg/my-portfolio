@@ -20,8 +20,14 @@ const ContactBottom = () => {
                 <a href="https://www.linkedin.com/in/mahadi-hasan-937524-mh/" className="icon me-5 fs-3"><FontAwesomeIcon className="" icon={faLinkedinIn} /></a>
                 <a href="https://www.facebook.com/profile.php?id=100022929606176" className="icon me-5 fs-3"><FontAwesomeIcon className="" icon={faFacebookF} /></a>
                 <a href="#" className="icon me-5 fs-3"><FontAwesomeIcon className="" icon={faInstagram} /></a>
-                <button onClick={() => setIsMail(!isMail)} className="icon me-5 fs-3"><FontAwesomeIcon className="" icon={faEnvelope} /></button>
-                <button onClick={() => setIsNumber(!isNumber)} className="icon me-5 fs-3"><FontAwesomeIcon className="" icon={faPhoneAlt} /></button>
+                <button onClick={() => {
+                    setIsMail(!isMail)
+                    setIsNumber(false)
+                }} className="icon me-5 fs-3"><FontAwesomeIcon className="" icon={faEnvelope} /></button>
+                <button onClick={() => {
+                    setIsNumber(!isNumber)
+                    setIsMail(false)
+                }} className="icon me-5 fs-3"><FontAwesomeIcon className="" icon={faPhoneAlt} /></button>
             </div>
         </footer>
 
