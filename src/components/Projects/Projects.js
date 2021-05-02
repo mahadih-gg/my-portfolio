@@ -9,6 +9,8 @@ const Projects = () => {
                 <h1 className="mb-5 color-primary">&lt;Projects&gt;</h1>
 
                 <h1 className="text-warning">Updateing...</h1>
+                <h1>Animation coming soo.....</h1>
+                <h2>Mind koren na. kaler modde sob ses hoye jabe😁</h2>
 
                 <div className="row py-5">
                     <div className="col-md-4">
