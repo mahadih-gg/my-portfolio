@@ -6,20 +6,22 @@ header{
     height: 100vh;
     color: #fff;
 }
-.header_gritting{
-    background: rgba(0, 0, 0, 0.800);
+.header-gritting{
+    background: rgba(0, 0, 0, 0.990);
     border-radius: 36px;
     background: #22283172;
     box-shadow:  11px 11px 23px #1b1f26, -11px -11px 23px #29313c;
 }
-.header_gritting h1{
+.header-gritting h1{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
+}
+.header-gritting h1 span{
+    font-size: 80px;
 }
 .header-btn{
     padding: 10px 40px;
 }
-
 .header-btn-icon{
     color: #fff;
     transition: all ease .3s; 

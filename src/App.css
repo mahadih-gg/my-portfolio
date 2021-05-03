@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Merienda&display=swap');
 
+/* Font secondary  */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+/* Font primary*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Krona+One&display=swap');
+
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Merienda', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px
 }
 body{
   background: #222831 !important;
@@ -12,6 +19,18 @@ body{
 .color-primary{
   color: #F4821F;
 }
+.color-secondary{
+  color: #0d6efd;
+}
+
+/* fonts */
+.font-secondary{
+  font-family: 'Teko', sans-serif !important;
+  letter-spacing: 2px;
+}
+/* .font-tertiary{
+
+} */
 .btn-custom{
   border: 4px solid #F4821F;
   border-radius: none;
@@ -27,4 +46,18 @@ body{
     transition: all ease .3s; 
     font-weight: bold;
   }
-  
+
+  /* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(87, 87, 87); 
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #F4821F, rgb(245, 175, 25)); 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #ff7700, rgb(197, 135, 0)); 
+}
