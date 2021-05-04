@@ -16,6 +16,14 @@ body{
   background: #222831 !important;
   color: #fff !important;
 }
+.preloader{
+  width: 100vw !important;
+  height: 100vh !important;
+  background: #E64A27;
+}
+.preloader img{
+  height: 100vh;
+}
 .color-primary{
   color: #F4821F;
 }

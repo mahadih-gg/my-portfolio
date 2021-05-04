@@ -22,4 +22,12 @@ box-shadow:  13px 13px 26px #161a1f, -13px -13px 26px #2e3643;
     margin-bottom: 10px;
     background: #2e3746;
     box-shadow:  13px 13px 26px #1a1e25,-13px -13px 26px #2a323d;
+    display: inline-block;
+
+}
+.technologies span:nth-child(1n){
+    color: #F4821F;
+}
+.technologies span:nth-child(2n){
+    color: #0d6efd;
 }

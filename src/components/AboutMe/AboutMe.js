@@ -4,6 +4,7 @@ import myProfile from '../../images/myProfile.png'
 import ProgressBar from '../ProgressBar/ProgressBar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import MahadiResume from '../../resume/MahadiResume.pdf'
 
 const AboutMe = () => {
     return (
@@ -16,7 +17,7 @@ const AboutMe = () => {
                     <a className="color-primary contact-link" href="#contact">Let's make something special.</a>
                 </p>
 
-                <a href="../../resume/Mahadi's Resume.pdf" download>
+                <a href={MahadiResume} download>
                     <button className="btn-custom mt-4 py-2">
                         <FontAwesomeIcon icon={faDownload} /> Download My Resume</button>
                 </a>
