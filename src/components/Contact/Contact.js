@@ -1,7 +1,8 @@
 import React from 'react';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane, faMapMarkerAlt, faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt, faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import ContactForm from '../ContactForm/ContactForm';
 
 const Contact = () => {
     return (
@@ -33,18 +34,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <form action="" className="my-5 d-flex justify-content-center align-items-center">
-                    <div className="w-100 p-5 contact-form">
-                        <p className="text-center color-primary mb-5">Have a question or want to work together?</p>
-                        <input type="text" className="form-control mb-1" placeholder="Name" required />
-                        <input type="email" className="form-control mb-1" placeholder="Enter Email" required />
-                        <textarea cols="30" rows="5" className="form-control" placeholder="Your massage" required></textarea>
-                        <div className="w-100 d-flex justify-content-end mt-2">
-                            <button className="btn-custom" type="submit">
-                                <FontAwesomeIcon icon={faPaperPlane} className="me-2" /> Send Message</button>
-                        </div>
-                    </div>
-                </form>
+                <ContactForm></ContactForm>
 
                 <h1 className="my-5 color-primary">&lt;/Contact&gt;</h1>
             </div>
