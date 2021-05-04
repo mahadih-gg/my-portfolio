@@ -38,11 +38,11 @@ const Blogs = () => {
         <section className="pt-5" id="blogs">
             <div className="container pt-5">
                 <h1 className="my-5">&lt;Blogs&gt;</h1>
+
                 <div className="row d-flex justify-content-center my-5">
                     {
                         blogs.map(blog => <BlogDetails blog={blog}></BlogDetails>)
                     }
-
                 </div>
 
                 <h1 className="my-5">&lt;/Blogs&gt;</h1>
