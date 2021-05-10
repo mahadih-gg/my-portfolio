@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectDetails from '../ProjectDetails/ProjectDetails';
 import './Projects.css';
-
+import updateing from '../../images/updateing.gif'
 
 
 const projects = [
@@ -58,6 +58,10 @@ const Projects = () => {
         <section className="pt-5" id="projects">
             <div className="container pt-5">
                 <h1 className="mb-5 color-primary">&lt;Projects&gt;</h1>
+                <div className="text-center">
+                    <img src={updateing} height="50px" className="rounded-pill" alt="" />
+                    <h5 style={{ color: '#FFCA03' }} className="my-3">Sill Updateing . . .</h5>
+                </div>
 
                 {
                     projects.map(project => <ProjectDetails project={project} key={project.id}></ProjectDetails>)

@@ -17,12 +17,11 @@ body{
   color: #fff !important;
 }
 .preloader{
-  width: 100vw !important;
   height: 100vh !important;
-  background: #E64A27;
+  background: #222831;
 }
 .preloader img{
-  height: 100vh;
+  height: 20vh;
 }
 .color-primary{
   color: #F4821F;

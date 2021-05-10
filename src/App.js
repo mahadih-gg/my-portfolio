@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Home from './components/Home/Home';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import preloaderGif from './images/preloaderGif2.gif'
 
 function App() {
@@ -11,15 +11,17 @@ function App() {
     setPreloader(true);
     setTimeout(() => {
       setPreloader(false)
-    }, 3000)
+    }, 6000)
+
   }, [])
+
 
   return (
     <div>
       {
         preloader ?
           (
-            <div className="text-center preloader">
+            <div className="text-center preloader d-flex justify-content-center align-items-center w-100">
               <img src={preloaderGif} alt="" />
             </div>
           ) : (

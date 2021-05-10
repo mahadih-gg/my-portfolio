@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './AboutMe.css';
 import myProfile from '../../images/myProfile.png'
 import ProgressBar from '../ProgressBar/ProgressBar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import MahadiResume from '../../resume/MahadiResume.pdf'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Particles from 'react-particles-js';
+
+
 
 const AboutMe = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, [])
+
     return (
         <div className="row my-5">
-            <div className="col-md-6 text-center">
+
+            <div className="col-md-6 text-center" data-aos="fade-right">
+
                 <img src={myProfile} alt="" />
                 <h2>Want to know who I am?😃</h2>
                 <p>
@@ -23,7 +35,7 @@ const AboutMe = () => {
                 </a>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-left">
                 <ProgressBar done="87" technologyName="React" ></ProgressBar>
                 <ProgressBar done="85" technologyName="Javascript" ></ProgressBar>
                 <ProgressBar done="95" technologyName="HTML" ></ProgressBar>
