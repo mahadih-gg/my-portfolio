@@ -1,8 +1,7 @@
 import React from 'react';
 import ProjectDetails from '../ProjectDetails/ProjectDetails';
 import './Projects.css';
-import updateing from '../../images/updateing.gif'
-
+import updateing from '../../images/updateing.gif';
 
 const projects = [
     {
@@ -12,7 +11,7 @@ const projects = [
         projectType: 'A Online Nursery',
         liveLink: 'https://green-city-new.web.app',
         gitHub: 'https://github.com/Mahadi92/green-city',
-        projectDescription: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis alias vitae molestias asperiores illo culpa. Quidem, earum?',
+        projectDescription: "This site is an online plant selling website. Users can buy a plant and get services via this website. Here is an admin panel. This part is interesting. Users can see all orders and all review what they made. And admin can see all things. Here I add the Stripe payment method.",
         technologies: ['React', 'Javascript', 'Bootstrap 5', 'HTML', 'CSS', 'React Route', 'MongoDB', 'Express', 'Dotenv', 'Firebase', 'Axios', 'Toastify'],
         details: [
             'mahadi hasanb pom pom pom pom',
@@ -63,9 +62,12 @@ const Projects = () => {
                     <h5 style={{ color: '#FFCA03' }} className="my-3">Sill Updateing . . .</h5>
                 </div>
 
+
                 {
                     projects.map(project => <ProjectDetails project={project} key={project.id}></ProjectDetails>)
                 }
+
+
 
                 <h1 className="my-5 color-primary">&lt;/Projects&gt;</h1>
             </div>

@@ -1,21 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './ProjectDetails.css';
-import greenCity from '../../images/green-city.gif';
+import greenCity from '../../images/green-city.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import ProjectDetailModal from '../ProjectDetailModal/ProjectDetailModal';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const ProjectDetails = ({ project }) => {
 
     const { id, modalId, projectName, projectType, liveLink, gitHub, projectDescription, technologies, details } = project
 
-    // const technologies = project.technologies;
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, [])
 
     return (
         <div className="row pb-5 pt-3 project mb-5">
             <div className="col-md-6 px-5 project-img">
-                <h2 className="color-primary mb-4 font-secondary color-secondary">Project {id}</h2>
+                <h2 className="color-primary mb-4 font-secondary color-secondary" data-aos="zoom-in">Project {id}</h2>
                 <img src={greenCity} alt="" />
                 <div className="mt-4">
                     <a href={liveLink} target="_blank" className="p-2 me-4 btn-custom-secondary"> <FontAwesomeIcon icon={faGlobe} /> Live Site</a>
