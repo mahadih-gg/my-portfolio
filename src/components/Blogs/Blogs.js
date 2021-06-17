@@ -41,7 +41,7 @@ const Blogs = () => {
 
                 <div className="row d-flex justify-content-center my-5">
                     {
-                        blogs.map(blog => <BlogDetails blog={blog}></BlogDetails>)
+                        blogs.map(blog => <BlogDetails blog={blog} key={blog.id}></BlogDetails>)
                     }
                 </div>
 

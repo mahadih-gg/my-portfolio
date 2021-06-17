@@ -10,7 +10,8 @@ const projects = [
         projectName: 'GREEN CITY',
         projectType: 'A Online Nursery',
         liveLink: 'https://green-city-new.web.app',
-        gitHub: 'https://github.com/Mahadi92/green-city',
+        gitHubClient: 'https://github.com/Mahadi92/green-city',
+        gitHubServer: 'https://github.com/Mahadi92/green-city-server',
         projectDescription: "This site is an online plant selling website. Users can buy a plant and get services via this website. Here is an admin panel. This part is interesting. Users can see all orders and all review what they made. And admin can see all things. Here I add the Stripe payment method.",
         technologies: ['React', 'Javascript', 'Bootstrap 5', 'HTML', 'CSS', 'React Route', 'MongoDB', 'Express', 'Dotenv', 'Firebase', 'Axios', 'Toastify'],
         details: [
@@ -25,7 +26,8 @@ const projects = [
         projectName: 'BOOK TOOL',
         projectType: 'A Online Book Shop',
         liveLink: 'https://book-tool.web.app',
-        gitHub: 'https://github.com/Mahadi92/book-tool',
+        gitHubClient: 'https://github.com/Mahadi92/book-tool',
+        gitHubServer: 'https://github.com/Mahadi92/book-tool',
         projectDescription: 'Book Tool Lorem ipsum dolor sit adipisicing elit. Perferendis alias vitae molestias asperiores illo culpa. Quidem, earum?',
         technologies: ['React', 'Javascript', 'Bootstrap 5', 'HTML', 'CSS', 'React Route', 'MongoDB', 'Express', 'Dotenv', 'Firebase', 'Axios', 'Toastify'],
         details: [
@@ -40,7 +42,8 @@ const projects = [
         projectName: 'CODE RUBRIC',
         projectType: 'Package Installer Application',
         liveLink: 'https://code-rubric.web.app',
-        gitHub: 'https://github.com/Mahadi92/code-rubric',
+        gitHubClient: 'https://github.com/Mahadi92/code-rubric',
+        gitHubServer: 'https://github.com/Mahadi92/code-rubric',
         projectDescription: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis alias vitae molestias asperiores illo culpa. Quidem, earum?',
         technologies: ['React', 'Javascript', 'Bootstrap 5', 'HTML', 'CSS', 'React Route', 'MongoDB', 'Express', 'Dotenv', 'Firebase', 'Axios', 'Toastify'],
         details: [
@@ -64,7 +67,7 @@ const Projects = () => {
 
 
                 {
-                    projects.map(project => <ProjectDetails project={project} key={project.id}></ProjectDetails>)
+                    projects.map(project => <ProjectDetails project={project} key={project.id} key={project.id}></ProjectDetails>)
                 }
 
 
