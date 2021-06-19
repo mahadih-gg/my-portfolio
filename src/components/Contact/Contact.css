@@ -30,3 +30,11 @@
     -moz-box-shadow:inset 0px 0px 0px 2px #F4821F; 
     box-shadow:inset 0px 0px 0px 2px #F4821F;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .my-gmail {
+        font-size: .8em !important;
+    }
+  }

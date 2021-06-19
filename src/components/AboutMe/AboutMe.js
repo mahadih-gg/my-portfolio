@@ -25,7 +25,7 @@ const AboutMe = () => {
                 <img src={myProfile} alt="" />
                 <h2>Want to know who I am?😃</h2>
                 <p>
-                    I'm a Front-End developer. I have serious passion for UI design, API management and dynamic user experiences. <br />
+                    Hi, This is Mahadi Hasan from Bangladesh. I'm a Front-End developer. I have serious passion for UI design, API management and dynamic user experiences. <br />
                     <a className="color-primary contact-link" href="#contact">Let's make something special.</a>
                 </p>
 

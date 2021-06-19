@@ -7,10 +7,11 @@ header{
     color: #fff;
 }
 .header-gritting{
-    background: rgba(0, 0, 0, 0.990);
     border-radius: 36px;
-    background: #22283172;
     box-shadow:  11px 11px 23px #1b1f26, -11px -11px 23px #29313c;
+    background: rgba( 34, 40, 49, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
 }
 .header-gritting h1{
     font-family: 'Josefin Sans', sans-serif;

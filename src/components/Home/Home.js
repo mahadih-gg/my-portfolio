@@ -6,12 +6,15 @@ import ContactBottom from '../ContactBottom/ContactBottom';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
 import Projects from '../Projects/Projects';
+import StickySidebar from '../StickySidebar/StickySidebar';
+
 
 const Home = () => {
     return (
         <div id="home">
             <Header></Header>
             <Navbar></Navbar>
+            <StickySidebar></StickySidebar>
             <About></About>
             <Projects></Projects>
             <Blogs></Blogs>

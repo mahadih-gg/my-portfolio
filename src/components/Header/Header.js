@@ -8,11 +8,8 @@ import HeaderAnimation from '../HeaderAnimation/HeaderAnimation';
 const Header = () => {
     return (
         <header className="d-flex justify-content-center align-items-center">
-            {/* <ParticlesBg color="#222831" num={20} type="thick" bg={true} /> */}
-            {/* <ParticlesBg color="#F4821F" type="tadpole" bg={true} /> */}
-            {/* <ParticlesBg type="cobweb" bg={true} /> */}
             <HeaderAnimation></HeaderAnimation>
-            <div className="header-gritting text-center p-5">
+            <div className="header-gritting text-center p-md-5 p-2">
                 <h1>Hi, I'm <span className="color-primary font-secondary">MAHADI HASAN</span></h1>
                 <h1>I'm a Front-End Developer</h1>
                 <a href="#about">

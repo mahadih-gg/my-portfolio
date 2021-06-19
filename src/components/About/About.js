@@ -7,6 +7,8 @@ import AboutMe from '../AboutMe/AboutMe';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
+
 const About = () => {
 
     useEffect(() => {
@@ -17,6 +19,7 @@ const About = () => {
         <section className="pt-5" id="about">
             <div className="container pt-5 mt-5">
                 <h1 className="mb-5">&lt;About&gt;</h1>
+
 
                 <div className="row d-flex justify-content-center" data-aos="zoom-in-up">
                     <div className="col-md-3 text-center">
