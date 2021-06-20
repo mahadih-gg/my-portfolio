@@ -18,7 +18,7 @@ const AboutMe = () => {
     }, [])
 
     return (
-        <div className="row my-5">
+        <div className="row my-5 overflow-hidden">
 
             <div className="col-md-6 text-center" data-aos="fade-right">
 

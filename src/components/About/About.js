@@ -16,12 +16,12 @@ const About = () => {
     }, [])
 
     return (
-        <section className="pt-5" id="about">
+        <section className="pt-5 w-100 m-0" id="about">
             <div className="container pt-5 mt-5">
                 <h1 className="mb-5">&lt;About&gt;</h1>
 
 
-                <div className="row d-flex justify-content-center" data-aos="zoom-in-up">
+                <div className="row w-100 d-flex justify-content-center" data-aos="zoom-in-up">
                     <div className="col-md-3 text-center">
                         <div className="card about-card bg-transparent text-white mx-auto">
                             <img src={hexagon} height="100%" className="card-img" />
