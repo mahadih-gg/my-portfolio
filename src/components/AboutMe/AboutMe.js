@@ -20,7 +20,7 @@ const AboutMe = () => {
     return (
         <div className="row my-5 overflow-hidden">
 
-            <div className="col-md-6 text-center" data-aos="fade-right">
+            <div className="col-md-6 mb-5 mb-md-0 text-center" data-aos="fade-right">
 
                 <img src={myProfile} alt="" />
                 <h2>Want to know who I am?😃</h2>
@@ -35,7 +35,7 @@ const AboutMe = () => {
                 </a>
             </div>
 
-            <div className="col-md-6" data-aos="fade-left">
+            <div className="col-md-6 px-5 px-md-0" data-aos="fade-left">
                 <ProgressBar done="87" technologyName="React" ></ProgressBar>
                 <ProgressBar done="85" technologyName="Javascript" ></ProgressBar>
                 <ProgressBar done="95" technologyName="HTML" ></ProgressBar>

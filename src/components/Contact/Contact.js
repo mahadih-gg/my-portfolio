@@ -11,21 +11,21 @@ const Contact = () => {
                 <h1 className="mb-5 color-primary">&lt;Contact&gt;</h1>
 
                 <div className="row m-auto">
-                    <div className="col-md-3 mb-3 mb-md-0 text-center mb-sm-4">
+                    <div className="col-md-3 mb-4 mb-md-0 text-center mb-sm-4">
                         <div className="contact-box p-4">
                             <FontAwesomeIcon icon={faPhoneAlt} className="contact-icon color-primary" />
                             <h2>Phone</h2>
                             <span className="fs-5">+8801856878150</span>
                         </div>
                     </div>
-                    <div className="col-md-5 mb-3 mb-md-0 text-center mb-sm-4">
+                    <div className="col-md-5 mb-4 mb-md-0 text-center mb-sm-4">
                         <div className="contact-box p-4">
                             <FontAwesomeIcon icon={faEnvelope} className="contact-icon color-primary" />
                             <h2>Email</h2>
-                            <span className="fs-6 text-wrap w-100 my-gmail">mahadi.hasan.937524.mh@gmail.com</span>
+                            <span className="fs-6 w-100 my-gmail">mahadi.hasan.937524.mh@gmail.com</span>
                         </div>
                     </div>
-                    <div className="col-md-4 mb-3 mb-md-0 text-center mb-sm-4">
+                    <div className="col-md-4 mb-4 mb-md-0 text-center mb-sm-4">
                         <div className="contact-box p-4">
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon color-primary" />
                             <h2>Location</h2>

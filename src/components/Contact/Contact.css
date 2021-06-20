@@ -35,6 +35,6 @@
 
 @media only screen and (max-width: 600px) {
     .my-gmail {
-        font-size: .8em !important;
+        font-size: 1em !important;
     }
   }

@@ -22,7 +22,7 @@ const About = () => {
 
 
                 <div className="row w-100 d-flex justify-content-center" data-aos="zoom-in-up">
-                    <div className="col-md-3 text-center">
+                    <div className="col-md-3 col-xl-3 col-6 text-center">
                         <div className="card about-card bg-transparent text-white mx-auto">
                             <img src={hexagon} height="100%" className="card-img" />
                             <div className="card-img-overlay d-flex justify-content-center align-items-center pe-4">
@@ -36,7 +36,7 @@ const About = () => {
                             <p>Websites don't have to be static, I love making pages come to life.</p>
                         </div>
                     </div>
-                    <div className="col-md-3 text-center">
+                    <div className="col-md-3 col-6 text-center">
                         <div className="card about-card bg-transparent text-white mx-auto">
                             <img src={hexagon} height="100%" className="card-img" />
                             <div className="card-img-overlay d-flex justify-content-center align-items-center pe-4">
@@ -50,7 +50,7 @@ const About = () => {
                             <p>My layouts will work on any device, big or small.</p>
                         </div>
                     </div>
-                    <div className="col-md-3 text-center">
+                    <div className="col-md-3 col-xl-3 col-6 text-center">
                         <div className="card about-card bg-transparent text-white mx-auto">
                             <img src={hexagon} height="100%" className="card-img" />
                             <div className="card-img-overlay d-flex justify-content-center align-items-center pe-4">
@@ -63,7 +63,7 @@ const About = () => {
                             <p>Strong preference for easy to use, intuitive UX/UI.</p>
                         </div>
                     </div>
-                    <div className="col-md-3 text-center">
+                    <div className="col-md-3 col-xl-3 col-6 text-center">
                         <div className="card about-card bg-transparent text-white mx-auto">
                             <img src={hexagon} height="100%" className="card-img" />
                             <div className="card-img-overlay d-flex justify-content-center align-items-center pe-4">

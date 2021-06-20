@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './StickySidebar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faLinkedinIn, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const StickySidebar = () => {
 
@@ -14,6 +14,10 @@ const StickySidebar = () => {
 
             <div className="sticky-sidebar ms-3">
                 <div className="pulseAnim"></div>
+                <div className="sticky-icon">
+                    <a href="https://github.com/Mahadi92" target="_blank"><FontAwesomeIcon className="" icon={faGithub} /></a>
+                </div>
+
                 <div className="sticky-icon">
                     <a href="https://www.linkedin.com/in/mahadi-hasan-937524-mh/" target="_blank"><FontAwesomeIcon className="" icon={faLinkedinIn} /></a>
                 </div>

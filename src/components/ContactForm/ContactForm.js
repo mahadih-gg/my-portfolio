@@ -41,7 +41,7 @@ const ContactForm = () => {
                 <input type="text" className="form-control mb-1" name="name" placeholder="Name" required />
                 <input type="email" className="form-control mb-1" name="email" placeholder="Enter Email" required />
                 <textarea cols="30" rows="5" name="message" className="form-control" placeholder="Your massage" required></textarea>
-                <div className="w-100 d-flex justify-content-end mt-2">
+                <div className="w-100 d-flex justify-content-center justify-content-md-end mt-2">
                     <button className="btn-custom" type="submit">
                         <FontAwesomeIcon icon={faPaperPlane} className="me-2" /> Send Message</button>
                 </div>
