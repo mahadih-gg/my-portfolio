@@ -7,7 +7,7 @@ header{
     color: #fff;
 }
 .header-gritting{
-    border-radius: 36px;
+    border-radius: 30px;
     box-shadow:  11px 11px 23px #1b1f26, -11px -11px 23px #29313c;
     background: rgba( 34, 40, 49, 0.25 );
     backdrop-filter: blur( 4px );
