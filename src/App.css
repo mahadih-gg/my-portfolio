@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Merienda&display=swap');
 
+/* Font primary*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Krona+One&display=swap');
+
 /* Font secondary  */
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
 
-/* Font primary*/
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Krona+One&display=swap');
+/* Font discription */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+
 
 *{
   margin: 0;
@@ -106,4 +112,7 @@ body{
 .modal-custom{
   background: #222831 !important;
   box-shadow: 5px 5px 10px #000000;
+}
+.font-discription{
+  font-family: 'Comfortaa', cursive !important;
 }

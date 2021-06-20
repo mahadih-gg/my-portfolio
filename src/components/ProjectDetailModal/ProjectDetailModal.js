@@ -8,7 +8,7 @@ import "react-modal-video/scss/modal-video.scss";
 
 const ProjectDetailModal = ({ project }) => {
 
-    const { modalId, projectName, projectType, details } = project;
+    const { modalId, projectName, projectType, projectDescription, details } = project;
 
     const [isOpen, setOpen] = useState(false)
 
@@ -29,9 +29,11 @@ const ProjectDetailModal = ({ project }) => {
                         <button type="button" className="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
+                        <p className="font-discription">{projectDescription}</p>
+                        <hr />
                         <ul>
                             {
-                                details.map(detail => <li>{detail}</li>)
+                                details.map(detail => <li className="mt-3 font-discription">{detail}</li>)
                             }
                         </ul>
                     </div>

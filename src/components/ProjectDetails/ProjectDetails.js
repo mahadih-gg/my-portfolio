@@ -12,7 +12,7 @@ import "react-modal-video/scss/modal-video.scss";
 
 const ProjectDetails = ({ project }) => {
 
-    const { id, modalId, projectName, projectType, liveLink, gitHubClient, gitHubServer, projectDescription, technologies, details } = project;
+    const { id, modalId, projectName, projectType, projectBgClass, liveLink, gitHubClient, gitHubServer, projectDescription, technologies, details, projectStack } = project;
 
     const [isOpen, setOpen] = useState(false)
 
@@ -22,9 +22,9 @@ const ProjectDetails = ({ project }) => {
 
     return (
         <div className="row pb-5 pt-3 project mb-5">
-            <div className="col-md-6 px-5 project-img">
-                <h2 className="color-primary mb-4 font-secondary color-secondary" data-aos="zoom-in">Project {id}</h2>
-                <img src={greenCity} alt="" />
+            <div className="col-md-6 px-5 project-img-col">
+                <h2 className="color-primary mb-4 font-secondary color-secondary" data-aos="zoom-in">Project {id} <h5 className="fs-6 color-primary">[{projectStack}]</h5></h2>
+                <div className={`project-img ${projectBgClass}`}></div>
                 <div className="mt-4">
                     <a href={liveLink} target="_blank" className="p-2 me-4 d-inline-block btn-custom-secondary"> <FontAwesomeIcon icon={faGlobe} /> Live Site</a>
 
@@ -38,7 +38,7 @@ const ProjectDetails = ({ project }) => {
             <div className="col-md-6 pe-5 pt-5 project-description">
                 <h1 className="color-primary p-0 m-0">{projectName} </h1>
                 <h3 className="color-primary p-0 m-0"> ( {projectType} )</h3>
-                <p className="pt-3">{projectDescription.substr(0, 180)}...</p>
+                <p className="pt-3">{projectDescription.substr(0, 120)}..... <span className="text-secondary btn-see-more" data-bs-toggle="modal" data-bs-target={`#${modalId}`}>See More</span></p>
 
                 <div className="technologies w-100">
                     {

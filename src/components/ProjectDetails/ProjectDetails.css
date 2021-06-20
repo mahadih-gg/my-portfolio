@@ -1,14 +1,30 @@
 .project{
     border-radius: 30px;
-background: #222831;
-box-shadow:  13px 13px 26px #161a1f, -13px -13px 26px #2e3643;
+    background: #222831;
+    box-shadow:  13px 13px 26px #161a1f, -13px -13px 26px #2e3643;
 }
-.project-img img{
-    /* height: 350px; */
+
+.project-img{
     width: 100%;
+    height: 60%;
+    transition: all ease 3s;
     border-radius: 10px;
-    
 }
+.greenCity{
+    background: url(../../images/green-city.png)  top center/cover no-repeat;
+}
+.bookTool{
+    background: url(../../images/book-tool.png)  top center/cover no-repeat;
+}
+.codeRubric{
+    background: url(../../images/code-rubric.png)  top center/cover no-repeat;
+}
+.project-img:hover{
+    background-position: bottom center;
+    transition: all ease 10s;
+}
+
+
 
 .project-description{
     /* height: 400px; */
@@ -30,4 +46,14 @@ box-shadow:  13px 13px 26px #161a1f, -13px -13px 26px #2e3643;
 }
 .technologies span:nth-child(2n){
     color: #0d6efd;
+}
+.btn-see-more{
+    cursor: pointer;
+}
+.btn-see-more:hover{
+    cursor: pointer;
+    color: #ddd !important;
+}
+.btn-see-more:active{
+    font-size: 15px;
 }
